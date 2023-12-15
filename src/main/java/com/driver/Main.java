@@ -2,9 +2,10 @@ package com.driver;
 
 public class Main {
     public static void main(String[] args) {
+        // Creating an object of class B
         B objB = new B();
 
-        // Calling the method from class A
+        // Calling the method from class A using the object of class B
         String resultFromA = objB.meth();
         System.out.println(resultFromA);
 
